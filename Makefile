@@ -8,6 +8,7 @@ all: $(OUTPUTS)
 build/RPL_UPH_FCBGA1744.check: pins/RPL_UPH_FCBGA1744/*.csv scripts/bga-check.py
 	mkdir -p build
 	./scripts/bga-check.py third-party/intel/cpu/rpl/hpu_ballout.csv pins/RPL_UPH_FCBGA1744
+	touch $@
 
 pcb-rpl-uph/local.pretty/%.kicad_mod: pins/%/*.csv scripts/bga-fp.py
 	./scripts/bga-fp.py pins/$* $@
