@@ -50,14 +50,18 @@ def pin(unit, x, y, dir, pin, name, type):
 offset = 1000
 
 unit = 1
-for name, rows in units.items():
+for unit_name, rows in units.items():
     count = 0
     switch = False
     switch_count = 0
+    option = None
     for row in rows:
         if len(row) >= 3 and len(row[0]) >= 1:
             count += 1
-            names = row[1].split("/")
+            if option is None:
+                name = row[1]
+            else:
+                name = row[1].split("/")[option]
             type = "U"
             if row[2] == "I":
                 type = "I"
@@ -69,13 +73,15 @@ for name, rows in units.items():
                 type = "W"
             elif row[2] == "PWR":
                 type = "W"
-            pin(unit, offset if switch else -offset, -count * 100, "L" if switch else "R", row[0], names[0], type)
+            pin(unit, offset if switch else -offset, -count * 100, "L" if switch else "R", row[0], name, type)
+        elif len(row) >= 2 and row[0] == "OPTION":
+            option = int(row[1])
         elif len(row) == 0:
             switch = True
             switch_count = count
             count = 0
     rect(unit, -offset + 200, offset - 200, 0, -max(count, switch_count) * 100 - 100)
-    text(unit, 0, 100, name)
+    text(unit, 0, 100, unit_name)
     unit += 1
 
 o.write("ENDDRAW\n")
