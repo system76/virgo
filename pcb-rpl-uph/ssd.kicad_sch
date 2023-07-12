@@ -891,7 +891,7 @@
   (symbol (lib_id "Device:C") (at 128.27 59.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d711fb0-f1b8-41fb-bfff-c18ddc73bd62)
-    (property "Reference" "C14" (at 124.46 58.42 90)
+    (property "Reference" "C5" (at 124.46 58.42 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220 nF" (at 133.35 58.42 90)
@@ -906,20 +906,12 @@
     (pin "1" (uuid 38f881d8-6d4e-42d7-9e6d-1ae1ad474770))
     (pin "2" (uuid 82051077-2a73-404c-8699-2396b0db75a3))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dc6bb010-aca3-4cde-ab91-1638cac3cb59"
-          (reference "C14") (unit 1)
+          (reference "C5") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/23cba7d6-f529-4abd-a356-0113190228dc"
-          (reference "C11") (unit 1)
-        )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/a5c97a58-7883-4783-9fcd-be7348b1ffc8"
-          (reference "C14") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/e2e14322-e8f0-41f3-80c8-1903997ded96"
-          (reference "C16") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -928,7 +920,7 @@
   (symbol (lib_id "Device:C") (at 128.27 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26caa481-192c-4260-b91d-52bcd8047e1e)
-    (property "Reference" "C6" (at 124.46 78.74 90)
+    (property "Reference" "C7" (at 124.46 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220 nF" (at 133.35 78.74 90)
@@ -943,20 +935,12 @@
     (pin "1" (uuid 7885d073-16d1-4fd9-b4ed-97e42840493b))
     (pin "2" (uuid b18b0746-5efb-47e7-8353-2f46338cd351))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dc6bb010-aca3-4cde-ab91-1638cac3cb59"
-          (reference "C6") (unit 1)
+          (reference "C7") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/23cba7d6-f529-4abd-a356-0113190228dc"
           (reference "C15") (unit 1)
-        )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/a5c97a58-7883-4783-9fcd-be7348b1ffc8"
-          (reference "C6") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/e2e14322-e8f0-41f3-80c8-1903997ded96"
-          (reference "C8") (unit 1)
         )
       )
     )
@@ -965,7 +949,7 @@
   (symbol (lib_id "power:+3V3") (at 171.45 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 335811af-2f9c-4c56-9127-66efb0abd471)
-    (property "Reference" "#PWR092" (at 171.45 48.26 0)
+    (property "Reference" "#PWR01" (at 171.45 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 171.45 39.37 0)
@@ -979,20 +963,12 @@
     )
     (pin "1" (uuid d4b6847c-c643-4b08-b526-de8a76283b51))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dc6bb010-aca3-4cde-ab91-1638cac3cb59"
-          (reference "#PWR092") (unit 1)
-        )
-        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/23cba7d6-f529-4abd-a356-0113190228dc"
           (reference "#PWR01") (unit 1)
         )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/a5c97a58-7883-4783-9fcd-be7348b1ffc8"
-          (reference "#PWR092") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/e2e14322-e8f0-41f3-80c8-1903997ded96"
-          (reference "#PWR094") (unit 1)
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/23cba7d6-f529-4abd-a356-0113190228dc"
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1001,7 +977,7 @@
   (symbol (lib_id "Device:C") (at 121.92 72.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 468d40e2-8236-4f0b-8da8-df767b5c1519)
-    (property "Reference" "C9" (at 119.38 73.66 90)
+    (property "Reference" "C2" (at 119.38 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220 nF" (at 127 73.66 90)
@@ -1016,20 +992,12 @@
     (pin "1" (uuid 8b9ed1c4-66a3-4cbb-89c0-f534e73bd2e8))
     (pin "2" (uuid 342fb13a-6db3-4bb5-8f3f-25f6f985ec5c))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dc6bb010-aca3-4cde-ab91-1638cac3cb59"
-          (reference "C9") (unit 1)
+          (reference "C2") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/23cba7d6-f529-4abd-a356-0113190228dc"
-          (reference "C4") (unit 1)
-        )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/a5c97a58-7883-4783-9fcd-be7348b1ffc8"
-          (reference "C9") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/e2e14322-e8f0-41f3-80c8-1903997ded96"
-          (reference "C11") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -1038,7 +1006,7 @@
   (symbol (lib_id "Device:C") (at 121.92 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4808b784-5fa8-45c8-87d4-e1317784a903)
-    (property "Reference" "C13" (at 118.11 63.5 90)
+    (property "Reference" "C1" (at 118.11 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220 nF" (at 127 63.5 90)
@@ -1053,20 +1021,12 @@
     (pin "1" (uuid a81d3e19-f80a-4b46-b9e2-ecbbe3059b00))
     (pin "2" (uuid b3fe91dc-a132-4ac0-8711-2be3b7539d6c))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dc6bb010-aca3-4cde-ab91-1638cac3cb59"
-          (reference "C13") (unit 1)
+          (reference "C1") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/23cba7d6-f529-4abd-a356-0113190228dc"
-          (reference "C2") (unit 1)
-        )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/a5c97a58-7883-4783-9fcd-be7348b1ffc8"
-          (reference "C13") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/e2e14322-e8f0-41f3-80c8-1903997ded96"
-          (reference "C15") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -1075,13 +1035,13 @@
   (symbol (lib_id "Connector:Bus_M.2_Socket_M") (at 171.45 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b5baaae-5137-4484-bd16-38a5c52681f1)
-    (property "Reference" "J10" (at 173.4059 41.91 0)
+    (property "Reference" "J1" (at 173.4059 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Bus_M.2_Socket_M" (at 173.4059 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "nuc-12-carrier:M2_M" (at 171.45 66.04 0)
+    (property "Footprint" "local:M2_M" (at 171.45 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 171.45 66.04 0)
@@ -1155,20 +1115,12 @@
     (pin "8" (uuid 4f7b8b01-4325-4f34-b139-9ebcf4e62ffd))
     (pin "9" (uuid 6088a544-f28b-48e2-a00a-17511e4dd26b))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dc6bb010-aca3-4cde-ab91-1638cac3cb59"
-          (reference "J10") (unit 1)
+          (reference "J1") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/23cba7d6-f529-4abd-a356-0113190228dc"
-          (reference "J1") (unit 1)
-        )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/a5c97a58-7883-4783-9fcd-be7348b1ffc8"
-          (reference "J10") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/e2e14322-e8f0-41f3-80c8-1903997ded96"
-          (reference "J1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -1177,7 +1129,7 @@
   (symbol (lib_id "Device:C") (at 121.92 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 715f01c5-c1b5-4cb5-ad59-3c78cfa9bb78)
-    (property "Reference" "C5" (at 119.38 83.82 90)
+    (property "Reference" "C3" (at 119.38 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220 nF" (at 127 83.82 90)
@@ -1192,20 +1144,12 @@
     (pin "1" (uuid d3fbf6ec-e764-4d59-b084-71993f1eb2b0))
     (pin "2" (uuid 7962aeb0-30ff-46f6-8ebd-93fae571e7a7))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dc6bb010-aca3-4cde-ab91-1638cac3cb59"
-          (reference "C5") (unit 1)
+          (reference "C3") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/23cba7d6-f529-4abd-a356-0113190228dc"
-          (reference "C7") (unit 1)
-        )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/a5c97a58-7883-4783-9fcd-be7348b1ffc8"
-          (reference "C5") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/e2e14322-e8f0-41f3-80c8-1903997ded96"
-          (reference "C7") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -1214,7 +1158,7 @@
   (symbol (lib_id "Device:C") (at 128.27 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 760cb3eb-0e3f-4182-98f6-65ec1cb1771c)
-    (property "Reference" "C10" (at 124.46 68.58 90)
+    (property "Reference" "C6" (at 124.46 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220 nF" (at 133.35 68.58 90)
@@ -1229,20 +1173,12 @@
     (pin "1" (uuid bdcb5808-b7ff-460f-8c0e-af5a670fd3fa))
     (pin "2" (uuid 2696d880-186d-42f6-aac4-5e9354b68240))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dc6bb010-aca3-4cde-ab91-1638cac3cb59"
-          (reference "C10") (unit 1)
+          (reference "C6") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/23cba7d6-f529-4abd-a356-0113190228dc"
-          (reference "C12") (unit 1)
-        )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/a5c97a58-7883-4783-9fcd-be7348b1ffc8"
-          (reference "C10") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/e2e14322-e8f0-41f3-80c8-1903997ded96"
-          (reference "C12") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -1251,7 +1187,7 @@
   (symbol (lib_id "Device:C") (at 121.92 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9767a31a-62d8-4840-93a2-68b355049c51)
-    (property "Reference" "C1" (at 119.38 93.98 90)
+    (property "Reference" "C4" (at 119.38 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220 nF" (at 127 93.98 90)
@@ -1266,20 +1202,12 @@
     (pin "1" (uuid 1983d5a4-62ab-471d-84af-8348d6b444e8))
     (pin "2" (uuid 07b184a8-4860-46da-b62e-0908af14d1aa))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dc6bb010-aca3-4cde-ab91-1638cac3cb59"
-          (reference "C1") (unit 1)
+          (reference "C4") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/23cba7d6-f529-4abd-a356-0113190228dc"
-          (reference "C8") (unit 1)
-        )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/a5c97a58-7883-4783-9fcd-be7348b1ffc8"
-          (reference "C1") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/e2e14322-e8f0-41f3-80c8-1903997ded96"
-          (reference "C2") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -1288,7 +1216,7 @@
   (symbol (lib_id "power:GND") (at 171.45 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ef57bd8-dce4-4efd-9045-d95825212475)
-    (property "Reference" "#PWR093" (at 171.45 147.32 0)
+    (property "Reference" "#PWR02" (at 171.45 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 171.45 146.05 0)
@@ -1302,20 +1230,12 @@
     )
     (pin "1" (uuid 4f957ca5-396a-49a0-b6cb-2264b77a97d6))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dc6bb010-aca3-4cde-ab91-1638cac3cb59"
-          (reference "#PWR093") (unit 1)
-        )
-        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/23cba7d6-f529-4abd-a356-0113190228dc"
           (reference "#PWR02") (unit 1)
         )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/a5c97a58-7883-4783-9fcd-be7348b1ffc8"
-          (reference "#PWR093") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/e2e14322-e8f0-41f3-80c8-1903997ded96"
-          (reference "#PWR095") (unit 1)
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/23cba7d6-f529-4abd-a356-0113190228dc"
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -1324,7 +1244,7 @@
   (symbol (lib_id "Device:C") (at 128.27 90.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7caab40-a86d-428f-a45b-2ec0a78b7645)
-    (property "Reference" "C3" (at 124.46 88.9 90)
+    (property "Reference" "C8" (at 124.46 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220 nF" (at 133.35 88.9 90)
@@ -1339,20 +1259,12 @@
     (pin "1" (uuid 1ab58817-1eb4-483e-89dd-be8952660b65))
     (pin "2" (uuid f6ebfeaa-8812-4944-8410-932d92a371c2))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dc6bb010-aca3-4cde-ab91-1638cac3cb59"
-          (reference "C3") (unit 1)
+          (reference "C8") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/23cba7d6-f529-4abd-a356-0113190228dc"
           (reference "C16") (unit 1)
-        )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/a5c97a58-7883-4783-9fcd-be7348b1ffc8"
-          (reference "C3") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/e2e14322-e8f0-41f3-80c8-1903997ded96"
-          (reference "C4") (unit 1)
         )
       )
     )

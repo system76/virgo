@@ -19,7 +19,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a" (page "3"))
       )
     )
@@ -36,7 +36,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a" (page "4"))
       )
     )
@@ -53,7 +53,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a" (page "6"))
       )
     )
@@ -70,7 +70,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a" (page "5"))
       )
     )
@@ -87,7 +87,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a" (page "2"))
       )
     )
@@ -104,7 +104,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a" (page "7"))
       )
     )

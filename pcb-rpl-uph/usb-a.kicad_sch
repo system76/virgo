@@ -1192,7 +1192,7 @@
   (symbol (lib_id "power:GND") (at 115.57 85.09 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17eb7487-cab2-43af-8817-4adff59e11d6)
-    (property "Reference" "#PWR0266" (at 115.57 91.44 0)
+    (property "Reference" "#PWR09" (at 115.57 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.443 89.4842 0)
@@ -1206,31 +1206,23 @@
     )
     (pin "1" (uuid 3322d6a3-17ca-4ace-bb41-5d39397e33fd))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/3664dc22-3843-4f42-9462-a87735489bba"
-          (reference "#PWR0266") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/64baf522-062d-4277-ada0-ff918b58c2ef"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/49d8ecf1-db3c-462d-ba7d-9a6cb7086135"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dd3104dc-27f1-47dc-b0cb-c8a405d11b97"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
       (project "launch"
         (path "/80c969df-cd39-4c4a-8336-5a366308cfd3/00000000-0000-0000-0000-00005f58df7c"
           (reference "#PWR0266") (unit 1)
-        )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/56708dc1-77b2-440c-bd32-d5c585fa5267"
-          (reference "#PWR0103") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/16248ba2-dbec-45c5-b89c-1235989cba6b"
-          (reference "#PWR0122") (unit 1)
         )
       )
     )
@@ -1239,7 +1231,7 @@
   (symbol (lib_id "power:GND") (at 138.43 114.3 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21ceb239-0bc6-4ce7-b781-85c3b9860786)
-    (property "Reference" "#PWR097" (at 138.43 120.65 0)
+    (property "Reference" "#PWR010" (at 138.43 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.43 118.745 0)
@@ -1253,26 +1245,18 @@
     )
     (pin "1" (uuid 50960971-5fee-43db-a91b-9fc98be143b8))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/3664dc22-3843-4f42-9462-a87735489bba"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/64baf522-062d-4277-ada0-ff918b58c2ef"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/49d8ecf1-db3c-462d-ba7d-9a6cb7086135"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dd3104dc-27f1-47dc-b0cb-c8a405d11b97"
-          (reference "#PWR020") (unit 1)
-        )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/56708dc1-77b2-440c-bd32-d5c585fa5267"
-          (reference "#PWR097") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/16248ba2-dbec-45c5-b89c-1235989cba6b"
-          (reference "#PWR0123") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -1281,13 +1265,13 @@
   (symbol (lib_id "Connector:USB3_A") (at 138.43 96.52 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3bbbf988-2acc-4c7c-9137-2e8b6e103569)
-    (property "Reference" "J2" (at 149.86 95.885 0)
+    (property "Reference" "J3" (at 149.86 95.885 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "USB3_A" (at 149.86 98.425 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "nuc-12-carrier:USB3_A_CnC_Tech_1003-002-01100" (at 134.62 93.98 0)
+    (property "Footprint" "local:USB3_A_CnC_Tech_1003-002-01100" (at 134.62 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 134.62 93.98 0)
@@ -1304,26 +1288,18 @@
     (pin "8" (uuid b5377018-24d6-443f-bf27-113290610980))
     (pin "9" (uuid ed0d4a02-32b4-47c6-a9e5-dd32e72daa07))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/3664dc22-3843-4f42-9462-a87735489bba"
-          (reference "J2") (unit 1)
+          (reference "J3") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/64baf522-062d-4277-ada0-ff918b58c2ef"
-          (reference "J3") (unit 1)
-        )
-        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/49d8ecf1-db3c-462d-ba7d-9a6cb7086135"
           (reference "J4") (unit 1)
         )
-        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dd3104dc-27f1-47dc-b0cb-c8a405d11b97"
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/49d8ecf1-db3c-462d-ba7d-9a6cb7086135"
           (reference "J5") (unit 1)
         )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/56708dc1-77b2-440c-bd32-d5c585fa5267"
-          (reference "J2") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/16248ba2-dbec-45c5-b89c-1235989cba6b"
-          (reference "J3") (unit 1)
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dd3104dc-27f1-47dc-b0cb-c8a405d11b97"
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -1332,7 +1308,7 @@
   (symbol (lib_id "power:GND") (at 87.63 62.23 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f0ca20b-d81d-4ce9-b66a-625d93021513)
-    (property "Reference" "#PWR0266" (at 87.63 68.58 0)
+    (property "Reference" "#PWR07" (at 87.63 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.503 66.6242 0)
@@ -1346,31 +1322,23 @@
     )
     (pin "1" (uuid 367cf4a6-4308-4c66-a45c-f50cb9e2c708))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/3664dc22-3843-4f42-9462-a87735489bba"
-          (reference "#PWR0266") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/64baf522-062d-4277-ada0-ff918b58c2ef"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/49d8ecf1-db3c-462d-ba7d-9a6cb7086135"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dd3104dc-27f1-47dc-b0cb-c8a405d11b97"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
       (project "launch"
         (path "/80c969df-cd39-4c4a-8336-5a366308cfd3/00000000-0000-0000-0000-00005f58df7c"
           (reference "#PWR0266") (unit 1)
-        )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/56708dc1-77b2-440c-bd32-d5c585fa5267"
-          (reference "#PWR0105") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/16248ba2-dbec-45c5-b89c-1235989cba6b"
-          (reference "#PWR0117") (unit 1)
         )
       )
     )
@@ -1379,7 +1347,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 115.57 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b4a6936-a420-48a8-8fe4-b6d0389e59ec)
-    (property "Reference" "C44" (at 119.38 83.82 90)
+    (property "Reference" "C19" (at 119.38 83.82 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "APXF6R3ARA151ME40G" (at 118.5672 82.423 0)
@@ -1397,31 +1365,23 @@
     (pin "1" (uuid 4a3e3448-3c45-409a-bc9a-b58996d3e104))
     (pin "2" (uuid 6c87e1d0-8e08-4b16-b6f8-4b5300aea975))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/3664dc22-3843-4f42-9462-a87735489bba"
-          (reference "C44") (unit 1)
-        )
-        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/64baf522-062d-4277-ada0-ff918b58c2ef"
           (reference "C19") (unit 1)
         )
-        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/49d8ecf1-db3c-462d-ba7d-9a6cb7086135"
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/64baf522-062d-4277-ada0-ff918b58c2ef"
           (reference "C22") (unit 1)
         )
-        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dd3104dc-27f1-47dc-b0cb-c8a405d11b97"
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/49d8ecf1-db3c-462d-ba7d-9a6cb7086135"
           (reference "C25") (unit 1)
+        )
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dd3104dc-27f1-47dc-b0cb-c8a405d11b97"
+          (reference "C28") (unit 1)
         )
       )
       (project "launch"
         (path "/80c969df-cd39-4c4a-8336-5a366308cfd3/00000000-0000-0000-0000-00005f58df7c"
           (reference "C44") (unit 1)
-        )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/56708dc1-77b2-440c-bd32-d5c585fa5267"
-          (reference "C55") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/16248ba2-dbec-45c5-b89c-1235989cba6b"
-          (reference "C58") (unit 1)
         )
       )
     )
@@ -1430,7 +1390,7 @@
   (symbol (lib_id "Device:C") (at 101.6 109.22 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53b4bd46-de90-4768-a302-868f04cef29a)
-    (property "Reference" "C52" (at 97.79 110.49 90)
+    (property "Reference" "C18" (at 97.79 110.49 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100 nF" (at 106.68 110.49 90)
@@ -1448,31 +1408,23 @@
     (pin "1" (uuid 91213282-5bbe-4a84-8d55-3d45f51b8999))
     (pin "2" (uuid 116a2334-6c68-4f31-aed2-c122ebf1c9ac))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/3664dc22-3843-4f42-9462-a87735489bba"
-          (reference "C52") (unit 1)
-        )
-        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/64baf522-062d-4277-ada0-ff918b58c2ef"
           (reference "C18") (unit 1)
         )
-        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/49d8ecf1-db3c-462d-ba7d-9a6cb7086135"
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/64baf522-062d-4277-ada0-ff918b58c2ef"
           (reference "C21") (unit 1)
         )
-        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dd3104dc-27f1-47dc-b0cb-c8a405d11b97"
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/49d8ecf1-db3c-462d-ba7d-9a6cb7086135"
           (reference "C24") (unit 1)
+        )
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dd3104dc-27f1-47dc-b0cb-c8a405d11b97"
+          (reference "C27") (unit 1)
         )
       )
       (project "launch"
         (path "/80c969df-cd39-4c4a-8336-5a366308cfd3/00000000-0000-0000-0000-00005f58df7c"
           (reference "C52") (unit 1)
-        )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/56708dc1-77b2-440c-bd32-d5c585fa5267"
-          (reference "C54") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/16248ba2-dbec-45c5-b89c-1235989cba6b"
-          (reference "C57") (unit 1)
         )
       )
     )
@@ -1481,7 +1433,7 @@
   (symbol (lib_id "launch:AP22811AW5-7‎") (at 96.52 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5aa6428a-2e56-4a19-b5bc-aa5b9ab16e12)
-    (property "Reference" "U23" (at 96.52 52.07 0)
+    (property "Reference" "U1" (at 96.52 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AP22811AW5-7 " (at 96.52 64.77 0)
@@ -1502,31 +1454,23 @@
     (pin "4" (uuid 16bdbcc7-0004-4763-983b-9eba7909ee22))
     (pin "5" (uuid 45e71701-1c2f-47c1-8631-d15c17825c30))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/3664dc22-3843-4f42-9462-a87735489bba"
-          (reference "U23") (unit 1)
-        )
-        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/64baf522-062d-4277-ada0-ff918b58c2ef"
           (reference "U1") (unit 1)
         )
-        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/49d8ecf1-db3c-462d-ba7d-9a6cb7086135"
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/64baf522-062d-4277-ada0-ff918b58c2ef"
           (reference "U3") (unit 1)
         )
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/49d8ecf1-db3c-462d-ba7d-9a6cb7086135"
+          (reference "U5") (unit 1)
+        )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dd3104dc-27f1-47dc-b0cb-c8a405d11b97"
-          (reference "U6") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
       (project "launch"
         (path "/80c969df-cd39-4c4a-8336-5a366308cfd3/00000000-0000-0000-0000-00005f58df7c"
           (reference "U23") (unit 1)
-        )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/56708dc1-77b2-440c-bd32-d5c585fa5267"
-          (reference "U9") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/16248ba2-dbec-45c5-b89c-1235989cba6b"
-          (reference "U10") (unit 1)
         )
       )
     )
@@ -1535,7 +1479,7 @@
   (symbol (lib_id "power:GND") (at 73.66 116.84 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 600b600c-ccfa-41c1-a169-1400024c0463)
-    (property "Reference" "#PWR0202" (at 67.31 116.84 0)
+    (property "Reference" "#PWR05" (at 67.31 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 69.2658 116.713 0)
@@ -1549,31 +1493,23 @@
     )
     (pin "1" (uuid 01d67ac9-55ff-4576-8d28-04bcee8d07ea))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/3664dc22-3843-4f42-9462-a87735489bba"
-          (reference "#PWR0202") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/64baf522-062d-4277-ada0-ff918b58c2ef"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/49d8ecf1-db3c-462d-ba7d-9a6cb7086135"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dd3104dc-27f1-47dc-b0cb-c8a405d11b97"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
       (project "launch"
         (path "/80c969df-cd39-4c4a-8336-5a366308cfd3/00000000-0000-0000-0000-00005f58df7c"
           (reference "#PWR0202") (unit 1)
-        )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/56708dc1-77b2-440c-bd32-d5c585fa5267"
-          (reference "#PWR099") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/16248ba2-dbec-45c5-b89c-1235989cba6b"
-          (reference "#PWR0115") (unit 1)
         )
       )
     )
@@ -1582,7 +1518,7 @@
   (symbol (lib_id "power:+5V") (at 83.82 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7fb7e781-51c5-469c-a7c0-b2436a758d40)
-    (property "Reference" "#PWR0114" (at 83.82 59.69 0)
+    (property "Reference" "#PWR06" (at 83.82 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 83.82 50.8 0)
@@ -1596,26 +1532,18 @@
     )
     (pin "1" (uuid a47eefdf-876d-40d5-8eb4-3762d0b4c6a6))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/3664dc22-3843-4f42-9462-a87735489bba"
-          (reference "#PWR0114") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/64baf522-062d-4277-ada0-ff918b58c2ef"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/49d8ecf1-db3c-462d-ba7d-9a6cb7086135"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dd3104dc-27f1-47dc-b0cb-c8a405d11b97"
-          (reference "#PWR016") (unit 1)
-        )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/56708dc1-77b2-440c-bd32-d5c585fa5267"
-          (reference "#PWR0114") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/16248ba2-dbec-45c5-b89c-1235989cba6b"
-          (reference "#PWR0116") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -1624,7 +1552,7 @@
   (symbol (lib_id "power:GND") (at 90.17 83.82 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82e29f5a-c93a-4075-8173-04341f149a85)
-    (property "Reference" "#PWR0266" (at 90.17 90.17 0)
+    (property "Reference" "#PWR08" (at 90.17 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.043 88.2142 0)
@@ -1638,31 +1566,23 @@
     )
     (pin "1" (uuid 5e626416-6c20-4d23-9235-4be5ec05cf8f))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/3664dc22-3843-4f42-9462-a87735489bba"
-          (reference "#PWR0266") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/64baf522-062d-4277-ada0-ff918b58c2ef"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/49d8ecf1-db3c-462d-ba7d-9a6cb7086135"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dd3104dc-27f1-47dc-b0cb-c8a405d11b97"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "launch"
         (path "/80c969df-cd39-4c4a-8336-5a366308cfd3/00000000-0000-0000-0000-00005f58df7c"
           (reference "#PWR0266") (unit 1)
-        )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/56708dc1-77b2-440c-bd32-d5c585fa5267"
-          (reference "#PWR0104") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/16248ba2-dbec-45c5-b89c-1235989cba6b"
-          (reference "#PWR0118") (unit 1)
         )
       )
     )
@@ -1671,7 +1591,7 @@
   (symbol (lib_id "Power_Protection:USBLC6-2SC6") (at 100.33 83.82 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 846c9243-6b11-4566-90a3-69b44d5a2538)
-    (property "Reference" "U5" (at 92.71 74.93 90)
+    (property "Reference" "U2" (at 92.71 74.93 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "USBLC6-2SC6" (at 92.71 95.25 90)
@@ -1693,31 +1613,23 @@
     (pin "5" (uuid f90195c4-67bd-4a30-8acc-d3bb1969884c))
     (pin "6" (uuid 80df5d5f-bd14-4b49-9d65-3d7daa5bd61f))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/3664dc22-3843-4f42-9462-a87735489bba"
-          (reference "U5") (unit 1)
-        )
-        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/64baf522-062d-4277-ada0-ff918b58c2ef"
           (reference "U2") (unit 1)
         )
-        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/49d8ecf1-db3c-462d-ba7d-9a6cb7086135"
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/64baf522-062d-4277-ada0-ff918b58c2ef"
           (reference "U4") (unit 1)
         )
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/49d8ecf1-db3c-462d-ba7d-9a6cb7086135"
+          (reference "U6") (unit 1)
+        )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dd3104dc-27f1-47dc-b0cb-c8a405d11b97"
-          (reference "U7") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
       (project "launch"
         (path "/80c969df-cd39-4c4a-8336-5a366308cfd3/00000000-0000-0000-0000-00005f58df7c"
           (reference "U5") (unit 1)
-        )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/56708dc1-77b2-440c-bd32-d5c585fa5267"
-          (reference "U8") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/16248ba2-dbec-45c5-b89c-1235989cba6b"
-          (reference "U11") (unit 1)
         )
       )
     )
@@ -1726,7 +1638,7 @@
   (symbol (lib_id "launch:PUSB3FR4Z") (at 88.9 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7046524-6cf0-458f-8fea-fcfb5076863c)
-    (property "Reference" "D2" (at 76.2 119.38 90)
+    (property "Reference" "D1" (at 76.2 119.38 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PUSB3FR4Z" (at 76.2 121.92 90)
@@ -1752,12 +1664,12 @@
     (pin "8" (uuid e034c346-1230-4e72-a721-250a0acc7af2))
     (pin "9" (uuid a50aefee-8771-4282-a11a-0659d247b7e8))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/3664dc22-3843-4f42-9462-a87735489bba"
-          (reference "D2") (unit 1)
+          (reference "D1") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/64baf522-062d-4277-ada0-ff918b58c2ef"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/49d8ecf1-db3c-462d-ba7d-9a6cb7086135"
           (reference "D3") (unit 1)
@@ -1771,21 +1683,13 @@
           (reference "D2") (unit 1)
         )
       )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/56708dc1-77b2-440c-bd32-d5c585fa5267"
-          (reference "D1") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/16248ba2-dbec-45c5-b89c-1235989cba6b"
-          (reference "D2") (unit 1)
-        )
-      )
     )
   )
 
   (symbol (lib_id "Device:C") (at 93.98 106.68 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7aab878-0556-4be9-abf0-984b4df0d43e)
-    (property "Reference" "C51" (at 90.17 105.41 90)
+    (property "Reference" "C17" (at 90.17 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100 nF" (at 99.06 105.41 90)
@@ -1803,31 +1707,23 @@
     (pin "1" (uuid 948a5647-d1dc-43aa-aeb8-1dfc6f707f83))
     (pin "2" (uuid 3372c45b-a708-4146-b38e-7a132a22ab4e))
     (instances
-      (project "virgo-motherboard"
+      (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/3664dc22-3843-4f42-9462-a87735489bba"
-          (reference "C51") (unit 1)
-        )
-        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/64baf522-062d-4277-ada0-ff918b58c2ef"
           (reference "C17") (unit 1)
         )
-        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/49d8ecf1-db3c-462d-ba7d-9a6cb7086135"
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/64baf522-062d-4277-ada0-ff918b58c2ef"
           (reference "C20") (unit 1)
         )
-        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dd3104dc-27f1-47dc-b0cb-c8a405d11b97"
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/49d8ecf1-db3c-462d-ba7d-9a6cb7086135"
           (reference "C23") (unit 1)
+        )
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dd3104dc-27f1-47dc-b0cb-c8a405d11b97"
+          (reference "C26") (unit 1)
         )
       )
       (project "launch"
         (path "/80c969df-cd39-4c4a-8336-5a366308cfd3/00000000-0000-0000-0000-00005f58df7c"
           (reference "C51") (unit 1)
-        )
-      )
-      (project "nuc-12-carrier"
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/56708dc1-77b2-440c-bd32-d5c585fa5267"
-          (reference "C53") (unit 1)
-        )
-        (path "/9d365571-36a3-4284-9c40-263457b111cd/16248ba2-dbec-45c5-b89c-1235989cba6b"
-          (reference "C56") (unit 1)
         )
       )
     )
