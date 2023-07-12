@@ -14,15 +14,21 @@ output = sys.argv[2]
 
 module = Path(output).stem
 
-i = open(input, newline="")
-o = open(output, "w")
+header = None
+rows = []
+with open(input, newline="") as i:
+    for row in csv.reader(i):
+        if header is None:
+            header = row
+        else:
+            rows.append(row)
 
 units = 0
-for row in csv.reader(i):
+for row in rows:
     if len(row) == 1:
         units += 1
 
-i.seek(0)
+o = open(output, "w")
 
 o.write("EESchema-LIBRARY Version 2.4\n")
 o.write("#encoding utf-8\n")
@@ -43,28 +49,39 @@ def rect(unit, x1, x2, y1, y2):
 def text(unit, x, y, name):
     o.write("T 0 " + str(x) + " " + str(y) + " 60 0 " + str(unit) + " 1 \"" + name + "\" Normal 0 C C\n")
 
-def pin(unit, x, y, dir, pin, name):
-    o.write("X " + name + " " + pin + " " + str(x) + " " + str(y) + " 200 " + dir + " 50 50 " + str(unit) + " 1 U\n")
+def pin(unit, x, y, dir, pin, name, type):
+    o.write("X " + name + " " + pin + " " + str(x) + " " + str(y) + " 200 " + dir + " 50 50 " + str(unit) + " 1 " + type + "\n")
 
-offset = 800
+offset = 1000
 
 unit = 0
 switch = False
 switch_count = 0
 count = 0
-for row in csv.reader(i):
-    if len(row) >= 2:
+for row in rows:
+    if len(row) >= 3 and len(row[0]) >= 1:
         count += 1
         names = row[1].split("/")
-        pin(unit, offset if switch else -offset, -count * 100, "L" if switch else "R", row[0], names[0])
-    elif len(row) >= 1:
+        type = "U"
+        if row[2] == "I":
+            type = "I"
+        elif row[2] == "O":
+            type = "O"
+        elif row[2] == "I/O":
+            type = "B"
+        elif row[2] == "GND":
+            type = "W"
+        elif row[2] == "PWR":
+            type = "W"
+        pin(unit, offset if switch else -offset, -count * 100, "L" if switch else "R", row[0], names[0], type)
+    elif len(row) >= 1 and len(row[0]) >= 1:
         rect(unit, -offset + 200, offset - 200, 0, -max(count, switch_count) * 100 - 100)
         unit += 1
         switch = False
         switch_count = 0
         count = 0
         text(unit, 0, 100, row[0])
-    else:
+    elif len(row) == 0:
         switch = True
         switch_count = count
         count = 0
