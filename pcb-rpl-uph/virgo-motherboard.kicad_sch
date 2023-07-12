@@ -1,5 +1,116 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 16b1e6ca-a3e2-42a7-b57e-a744c26a548a)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 198.12 53.34) (size 19.05 11.43) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 23cba7d6-f529-4abd-a356-0113190228dc)
+    (property "Sheetname" "SSD1" (at 198.12 52.6284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ssd.kicad_sch" (at 198.12 65.3546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "virgo-motherboard"
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 175.895 36.195) (size 19.05 11.43) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3664dc22-3843-4f42-9462-a87735489bba)
+    (property "Sheetname" "USBA0" (at 175.895 35.4834 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "usb-a.kicad_sch" (at 175.895 48.2096 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "virgo-motherboard"
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 220.345 36.195) (size 19.05 11.43) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 49d8ecf1-db3c-462d-ba7d-9a6cb7086135)
+    (property "Sheetname" "USBA2" (at 220.345 35.4834 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "usb-a.kicad_sch" (at 220.345 48.2096 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "virgo-motherboard"
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 198.12 36.195) (size 19.05 11.43) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 64baf522-062d-4277-ada0-ff918b58c2ef)
+    (property "Sheetname" "USBA1" (at 198.12 35.4834 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "usb-a.kicad_sch" (at 198.12 48.2096 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "virgo-motherboard"
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 175.895 53.34) (size 19.05 11.43) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid dc6bb010-aca3-4cde-ab91-1638cac3cb59)
+    (property "Sheetname" "SSD0" (at 175.895 52.6284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ssd.kicad_sch" (at 175.895 65.3546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "virgo-motherboard"
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 242.57 36.195) (size 19.05 11.43) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid dd3104dc-27f1-47dc-b0cb-c8a405d11b97)
+    (property "Sheetname" "USBA3" (at 242.57 35.4834 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "usb-a.kicad_sch" (at 242.57 48.2096 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "virgo-motherboard"
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a" (page "7"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
