@@ -9526,14 +9526,14 @@
     )
   )
 
-  (sheet (at 142.24 15.24) (size 19.05 11.43) (fields_autoplaced)
+  (sheet (at 141.478 16.256) (size 19.05 11.43) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid ea557327-944c-4c58-8e95-011e3f825fc3)
-    (property "Sheetname" "DDR5_0" (at 142.24 14.5284 0)
+    (property "Sheetname" "DDR5_0" (at 141.478 15.5444 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "ddr5.kicad_sch" (at 142.24 27.2546 0)
+    (property "Sheetfile" "ddr5.kicad_sch" (at 141.478 28.2706 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
