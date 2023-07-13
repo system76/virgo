@@ -527,6 +527,14 @@
     [
       "90cc65b2-8e88-4308-8926-9cfa0550499f",
       "AUDIO0"
+    ],
+    [
+      "8f49d232-6f1c-40a4-ac6e-b809e331633b",
+      "CPU_PCIEX4_A"
+    ],
+    [
+      "634de62b-9cca-4a13-b35e-e21f9943b95f",
+      "CPU_PCIEX4_B"
     ]
   ],
   "text_variables": {}
