@@ -1,0 +1,15 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 39e06067-c977-4992-84a5-5d5eb4c6d98f)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "TODO: FIND GOOD PART" (at 131.445 93.98 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6d42051d-0241-4b90-8db9-23b5ea2dca33)
+  )
+)
