@@ -66,7 +66,7 @@
   (pad "S1" smd roundrect (at -5 2.85) (size 1 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp c34f9d30-332c-4e9f-8b8c-2b1178d4d17e))
   (pad "S1" smd roundrect (at 4.8 -3.1) (size 1 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d9819b40-ffd3-4ec0-a4f2-acab8b8cb523))
   (pad "S1" smd roundrect (at -4.8 -3.1) (size 1 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp eece6609-63ed-465d-bc13-a83643fc96e0))
-  (model "${KIPRJMOD}/models/M-12401610E42A-REVT2.stp"
+  (model "${KIPRJMOD}/../third-party/snapeda/amphenol/12401610E4#2A--3DModel-STEP-533217.STEP"
     (offset (xyz 0 -5.2 1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

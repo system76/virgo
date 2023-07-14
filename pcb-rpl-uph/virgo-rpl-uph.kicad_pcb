@@ -1455,7 +1455,7 @@
       (net 143 "unconnected-(J7-SHIELD-PadS1)") (pinfunction "SHIELD") (pintype "passive") (tstamp 105594e7-3d6c-4e73-a726-7bc4faa593d3))
     (pad "S1" smd roundrect (at 5 2.85 90) (size 1 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 143 "unconnected-(J7-SHIELD-PadS1)") (pinfunction "SHIELD") (pintype "passive") (tstamp a8cd072b-c7a8-4fdb-bb83-682607f9a6ba))
-    (model "${KIPRJMOD}/models/M-12401610E42A-REVT2.stp"
+    (model "${KIPRJMOD}/../third-party/snapeda/amphenol/12401610E4#2A--3DModel-STEP-533217.STEP"
       (offset (xyz 0 -5.2 1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1831,7 +1831,7 @@
       (net 4 "+3V3") (pinfunction "3.3V") (pintype "passive") (tstamp 395a61be-702f-4ae5-8209-ab9891a785e2))
     (pad "75" smd rect (at 9.25 0 90) (size 0.3 1.55) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp 6adaf6fc-db6d-4eee-82c8-681771d69c55))
-    (model "${KIPRJMOD}/models/M2_M_c-1-2199119-5-c-3d.stp"
+    (model "${KIPRJMOD}/../third-party/snapeda/te-connectivity/1-2199119-5.step"
       (offset (xyz 0 -7.75 1.7))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -1959,7 +1959,7 @@
       (net 105 "unconnected-(J5-SHIELD-PadS1)") (pinfunction "SHIELD") (pintype "passive") (tstamp 741cd45a-c738-43a2-aaec-d332e198cfc7))
     (pad "S1" smd roundrect (at 5 2.85 270) (size 1 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 105 "unconnected-(J5-SHIELD-PadS1)") (pinfunction "SHIELD") (pintype "passive") (tstamp 4538e3a8-3cf5-4d55-b6c0-74012065f1ff))
-    (model "${KIPRJMOD}/models/M-12401610E42A-REVT2.stp"
+    (model "${KIPRJMOD}/../third-party/snapeda/amphenol/12401610E4#2A--3DModel-STEP-533217.STEP"
       (offset (xyz 0 -5.2 1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -3676,7 +3676,7 @@
       (net 688 "Net-(J10C-SHIELD-PadS1)") (pinfunction "SHIELD") (pintype "passive") (tstamp 286b0377-e5c0-44f0-8673-f2d5f27d92d0))
     (pad "S2" smd rect (at 33.8 10.8) (size 3.5 4.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 688 "Net-(J10C-SHIELD-PadS1)") (pinfunction "SHIELD") (pintype "passive") (tstamp ce596607-823e-4dcf-847f-b5626b57131a))
-    (model "${KIPRJMOD}/models/10157422-002RHLF.stp"
+    (model "${KIPRJMOD}/../third-party/snapeda/amphenol/10157422-002RHLF.step"
       (offset (xyz -17.65 -8.25 -2))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -3854,7 +3854,7 @@
       (net 124 "unconnected-(J6-SHIELD-PadS1)") (pinfunction "SHIELD") (pintype "passive") (tstamp f06d82b3-2af4-4774-9523-047855c22392))
     (pad "S1" smd roundrect (at 5 2.85 270) (size 1 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 124 "unconnected-(J6-SHIELD-PadS1)") (pinfunction "SHIELD") (pintype "passive") (tstamp 747e48a0-40bf-45bb-a844-f92bdca0acd9))
-    (model "${KIPRJMOD}/models/M-12401610E42A-REVT2.stp"
+    (model "${KIPRJMOD}/../third-party/snapeda/amphenol/12401610E4#2A--3DModel-STEP-533217.STEP"
       (offset (xyz 0 -5.2 1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -6308,7 +6308,7 @@
       (net 425 "Net-(J9C-SHIELD-PadS1)") (pinfunction "SHIELD") (pintype "passive") (tstamp 769ec220-0a75-4217-8094-1bd385f6c27f))
     (pad "S2" smd rect (at 33.8 10.8) (size 3.5 4.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 425 "Net-(J9C-SHIELD-PadS1)") (pinfunction "SHIELD") (pintype "passive") (tstamp 64774776-e591-4489-8f8b-df3526b3826d))
-    (model "${KIPRJMOD}/models/10157422-002RHLF.stp"
+    (model "${KIPRJMOD}/../third-party/snapeda/amphenol/10157422-002RHLF.step"
       (offset (xyz -17.65 -8.25 -2))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -7283,7 +7283,7 @@
       (net 4 "+3V3") (pinfunction "3.3V") (pintype "passive") (tstamp 53c61b6a-9689-45ea-87c2-53749c76f440))
     (pad "75" smd rect (at 9.25 0 270) (size 0.3 1.55) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp 62f1eaf8-5582-449c-8de5-3ad39389fb74))
-    (model "${KIPRJMOD}/models/M2_M_c-1-2199119-5-c-3d.stp"
+    (model "${KIPRJMOD}/../third-party/snapeda/te-connectivity/1-2199119-5.step"
       (offset (xyz 0 -7.75 1.7))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -7809,7 +7809,7 @@
       (net 162 "unconnected-(J8-SHIELD-PadS1)") (pinfunction "SHIELD") (pintype "passive") (tstamp 21545bb1-c34a-456b-a64d-9dbf5ff7dee7))
     (pad "S1" smd roundrect (at 5 2.85 90) (size 1 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 162 "unconnected-(J8-SHIELD-PadS1)") (pinfunction "SHIELD") (pintype "passive") (tstamp c4beb8c8-2097-47ce-b5cb-c1757c13dce1))
-    (model "${KIPRJMOD}/models/M-12401610E42A-REVT2.stp"
+    (model "${KIPRJMOD}/../third-party/snapeda/amphenol/12401610E4#2A--3DModel-STEP-533217.STEP"
       (offset (xyz 0 -5.2 1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
