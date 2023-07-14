@@ -305,7 +305,7 @@
   (pad "262" smd rect (at 33.375 -4.3) (size 0.3 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 99f91a74-15af-42c2-a67a-78c900d352bd))
   (pad "S1" smd rect (at -33.8 10.8) (size 3.5 4.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ef051199-45af-4c01-bb1f-edfffd44f635))
   (pad "S2" smd rect (at 33.8 10.8) (size 3.5 4.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ccebbcb5-c4c1-4d2b-abdb-6009c8d25b26))
-  (model "${KIPRJMOD}/models/10157422-002RHLF.stp"
+  (model "${KIPRJMOD}/../third-party/snapeda/amphenol/10157422-002RHLF.step"
     (offset (xyz -17.65 -8.25 -2))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
