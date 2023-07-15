@@ -538,7 +538,31 @@
     ],
     [
       "2e321923-412c-4897-8fac-433c59bcdab7",
-      "CPU-HDMI"
+      "CPU_HDMI"
+    ],
+    [
+      "0c695ba7-0b47-44e6-98ac-a40e444c4376",
+      "CPU_USB_A_1"
+    ],
+    [
+      "39be6926-abc6-4285-b639-730b6fab11b0",
+      "CPU_USB_A_2"
+    ],
+    [
+      "0608dde8-fbd5-4ed3-bd7a-6625012af2ba",
+      "CPU_TCP0"
+    ],
+    [
+      "4043b677-d0d7-4ddd-9075-b70c22c2f1d7",
+      "CPU_TCP1"
+    ],
+    [
+      "396f4d4a-5505-4d40-a71d-4267074d4007",
+      "CPU_TCP2"
+    ],
+    [
+      "85e633b5-8e46-476f-9f27-8c574f0ea1a5",
+      "CPU_TCP3"
     ]
   ],
   "text_variables": {}
