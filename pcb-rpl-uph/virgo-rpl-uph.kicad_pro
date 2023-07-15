@@ -563,6 +563,14 @@
     [
       "85e633b5-8e46-476f-9f27-8c574f0ea1a5",
       "CPU_TCP3"
+    ],
+    [
+      "a29f3426-30a6-4a41-8db3-bc9c94945f7b",
+      "CPU_DDR_A"
+    ],
+    [
+      "e64597b8-6b39-45a3-bef8-5ee1a2b0bce6",
+      "CPU_DDR_B"
     ]
   ],
   "text_variables": {}
