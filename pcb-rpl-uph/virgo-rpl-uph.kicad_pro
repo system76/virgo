@@ -571,6 +571,10 @@
     [
       "e64597b8-6b39-45a3-bef8-5ee1a2b0bce6",
       "CPU_DDR_B"
+    ],
+    [
+      "e4d8c582-eb17-46c4-8cee-7b6e5daf94f0",
+      "CPU_VSS"
     ]
   ],
   "text_variables": {}
