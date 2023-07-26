@@ -9556,6 +9556,23 @@
     )
   )
 
+  (sheet (at 242.57 78.74) (size 16.51 5.08) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 69fb8a71-6e02-4ae4-89b7-1b50af609e20)
+    (property "Sheetname" "Display" (at 242.57 78.0284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "display.kicad_sch" (at 242.57 84.4046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "virgo-rpl-uph"
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a" (page "28"))
+      )
+    )
+  )
+
   (sheet (at 140.97 140.081) (size 54.102 3.937) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

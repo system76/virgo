@@ -600,6 +600,10 @@
     [
       "e4d8c582-eb17-46c4-8cee-7b6e5daf94f0",
       "CPU_VSS"
+    ],
+    [
+      "69fb8a71-6e02-4ae4-89b7-1b50af609e20",
+      "Display"
     ]
   ],
   "text_variables": {}
