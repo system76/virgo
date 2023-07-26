@@ -7629,7 +7629,7 @@
     (property "Value" "RPL_UPH_FCBGA1744" (at 148.971 90.17 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 150.241 92.456 0)
+    (property "Footprint" "local:RPL_UPH_FCBGA1744" (at 150.241 92.456 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 150.241 92.456 0)

@@ -9405,7 +9405,7 @@
     (property "Value" "RPL_UPH_FCBGA1744" (at 130.302 25.019 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 131.572 26.924 0)
+    (property "Footprint" "local:RPL_UPH_FCBGA1744" (at 131.572 26.924 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 131.572 26.924 0)
