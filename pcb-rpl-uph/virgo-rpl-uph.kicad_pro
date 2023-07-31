@@ -45,10 +45,16 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.09999999999999999
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -105,9 +111,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_clearance": 0.075,
+        "min_connection": 0.075,
+        "min_copper_edge_clearance": 0.25,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -116,14 +122,14 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_through_hole_diameter": 0.19999999999999998,
+        "min_track_width": 0.075,
         "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.44999999999999996,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
-        "use_height_for_length_calcs": true
+        "solder_mask_to_copper_clearance": 0.09999999999999999,
+        "use_height_for_length_calcs": false
       },
       "teardrop_options": [
         {
@@ -165,8 +171,27 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.075,
+        0.1,
+        0.2,
+        0.3
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -399,7 +424,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.075,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -409,9 +434,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
@@ -530,51 +555,39 @@
     ],
     [
       "8f49d232-6f1c-40a4-ac6e-b809e331633b",
-      "CPU_PCIEX4_A"
-    ],
-    [
-      "634de62b-9cca-4a13-b35e-e21f9943b95f",
-      "CPU_PCIEX4_B"
+      "CPU_PCIEX4"
     ],
     [
       "2e321923-412c-4897-8fac-433c59bcdab7",
-      "CPU_HDMI"
+      "CPU_DDI"
     ],
     [
       "0c695ba7-0b47-44e6-98ac-a40e444c4376",
-      "CPU_USB_A_1"
+      "CPU_USB"
     ],
     [
-      "39be6926-abc6-4285-b639-730b6fab11b0",
-      "CPU_USB_A_2"
+      "b22f8f58-2f29-4e38-ba70-c05cc125532f",
+      "CPU_UNUSED"
     ],
     [
-      "0608dde8-fbd5-4ed3-bd7a-6625012af2ba",
-      "CPU_TCP0"
+      "b99f5c11-421a-41d0-ac44-8be300de64ff",
+      "CPU_POWER"
     ],
     [
-      "4043b677-d0d7-4ddd-9075-b70c22c2f1d7",
-      "CPU_TCP1"
-    ],
-    [
-      "396f4d4a-5505-4d40-a71d-4267074d4007",
-      "CPU_TCP2"
-    ],
-    [
-      "85e633b5-8e46-476f-9f27-8c574f0ea1a5",
-      "CPU_TCP3"
+      "66fe405c-1a38-42dc-bfec-a7c5f6a5d11f",
+      "CPU_MISC"
     ],
     [
       "a29f3426-30a6-4a41-8db3-bc9c94945f7b",
-      "CPU_DDR_A"
-    ],
-    [
-      "e64597b8-6b39-45a3-bef8-5ee1a2b0bce6",
-      "CPU_DDR_B"
+      "CPU_DDR"
     ],
     [
       "e4d8c582-eb17-46c4-8cee-7b6e5daf94f0",
       "CPU_VSS"
+    ],
+    [
+      "69fb8a71-6e02-4ae4-89b7-1b50af609e20",
+      "Display"
     ]
   ],
   "text_variables": {}

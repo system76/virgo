@@ -736,7 +736,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 494cb491-82a3-448d-a361-5ee5ac9a00b4)
   )
-  (text "32.768 kHz\nfrom NUC" (at 198.12 125.73 0)
+  (text "32.768 kHz" (at 198.12 125.73 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5534c184-c4c5-4258-b5d6-93f6787517a4)
   )
