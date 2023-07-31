@@ -1137,9 +1137,9 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 54d40eed-0147-486d-bfd8-ff97c4eace12)
   )
-  (text "FLG to EC?" (at 113.03 60.96 0)
+  (text "TODO:\ncommon mode chokes\novercurrent to CPU" (at 106.68 130.81 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d11ed9d6-3505-4f78-b5c4-005c2dbe874b)
+    (uuid 89618191-0b59-4c85-bada-95cae98cc2c7)
   )
 
   (label "SSTXC+" (at 107.95 109.22 0) (fields_autoplaced)

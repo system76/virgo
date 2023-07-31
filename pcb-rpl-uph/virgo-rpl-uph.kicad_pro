@@ -555,47 +555,31 @@
     ],
     [
       "8f49d232-6f1c-40a4-ac6e-b809e331633b",
-      "CPU_PCIEX4_A"
-    ],
-    [
-      "634de62b-9cca-4a13-b35e-e21f9943b95f",
-      "CPU_PCIEX4_B"
+      "CPU_PCIEX4"
     ],
     [
       "2e321923-412c-4897-8fac-433c59bcdab7",
-      "CPU_HDMI"
+      "CPU_DDI"
     ],
     [
       "0c695ba7-0b47-44e6-98ac-a40e444c4376",
-      "CPU_USB_A_1"
+      "CPU_USB"
     ],
     [
-      "39be6926-abc6-4285-b639-730b6fab11b0",
-      "CPU_USB_A_2"
+      "b22f8f58-2f29-4e38-ba70-c05cc125532f",
+      "CPU_UNUSED"
     ],
     [
-      "0608dde8-fbd5-4ed3-bd7a-6625012af2ba",
-      "CPU_TCP0"
+      "b99f5c11-421a-41d0-ac44-8be300de64ff",
+      "CPU_POWER"
     ],
     [
-      "4043b677-d0d7-4ddd-9075-b70c22c2f1d7",
-      "CPU_TCP1"
-    ],
-    [
-      "396f4d4a-5505-4d40-a71d-4267074d4007",
-      "CPU_TCP2"
-    ],
-    [
-      "85e633b5-8e46-476f-9f27-8c574f0ea1a5",
-      "CPU_TCP3"
+      "66fe405c-1a38-42dc-bfec-a7c5f6a5d11f",
+      "CPU_MISC"
     ],
     [
       "a29f3426-30a6-4a41-8db3-bc9c94945f7b",
-      "CPU_DDR_A"
-    ],
-    [
-      "e64597b8-6b39-45a3-bef8-5ee1a2b0bce6",
-      "CPU_DDR_B"
+      "CPU_DDR"
     ],
     [
       "e4d8c582-eb17-46c4-8cee-7b6e5daf94f0",

@@ -77,6 +77,8 @@ for unit_name, rows in units.items():
             pin(unit, offset if switch else -offset, -count * 100, "L" if switch else "R", row[0], name, type)
         elif len(row) >= 2 and row[0] == "OPTION":
             option = int(row[1])
+        elif len(row) >= 2 and row[0] == "GAP": # insert a gap between pins
+            count += int(row[1])
         elif len(row) == 0:
             switch = True
             switch_count = count
