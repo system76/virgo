@@ -1,6 +1,8 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 OUTPUTS=\
+	pcb-rpl-uph/local.pretty/MEC1521H_B0_I_TF.kicad_mod \
+	pcb-rpl-uph/sym/MEC1521H_B0_I_TF.lib \
 	build/RPL_UPH_FCBGA1744.check \
 	pcb-rpl-uph/local.pretty/RPL_UPH_FCBGA1744.kicad_mod \
 	pcb-rpl-uph/sym/RPL_UPH_FCBGA1744.lib
