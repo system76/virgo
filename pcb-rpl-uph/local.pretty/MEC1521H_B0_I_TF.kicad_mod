@@ -1,4 +1,4 @@
-(module MEC1521H_B0_I_TF (layer F.Cu) (tedit 64CBE66A)
+(module MEC1521H_B0_I_TF (layer F.Cu) (tedit 64CBE758)
   (attr smd)
   (fp_text reference REF** (at 0 -1.27) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))

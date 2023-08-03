@@ -79,6 +79,8 @@ for unit_name, rows in units.items():
             option = int(row[1])
         elif len(row) >= 2 and row[0] == "GAP": # insert a gap between pins
             count += int(row[1])
+        elif len(row) >= 2 and row[0] == "OFFSET": # adjust offset between sides
+            offset = int(row[1])
         elif len(row) == 0:
             switch = True
             switch_count = count

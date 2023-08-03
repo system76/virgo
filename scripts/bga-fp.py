@@ -39,14 +39,14 @@ o.write("  )\n")
 spacing = None
 for name, rows in units.items():
     for row in rows:
-        if len(row) >= 4 and len(row[0]) >= 1:
+        if len(row) >= 5 and len(row[0]) >= 1:
             pin = row[0]
             x = float(row[3])/1000.0
             y = -float(row[4])/1000.0
             o.write("  (pad " + pin + " smd circle (at " + str(x) + " " + str(y) + ") (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))\n")
         elif len(row) >= 2 and row[0] == "SPACING":
             spacing = float(row[1])
-        elif spacing is not None and len(row) >= 2 and len(row[0]) >= 2:
+        elif spacing is not None and len(row) >= 3 and len(row[0]) >= 2:
             pin = row[0]
             # Skip I - is this always done?
             if ord(pin[0]) >= ord('J'):
