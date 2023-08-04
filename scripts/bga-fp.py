@@ -44,7 +44,7 @@ for name, rows in units.items():
             x = float(row[3])/1000.0
             y = -float(row[4])/1000.0
             o.write("  (pad " + pin + " smd circle (at " + str(x) + " " + str(y) + ") (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))\n")
-        elif len(row) >= 2 and row[0] == "SPACING":
+        elif len(row) >= 2 and row[0] == "PITCH":
             spacing = float(row[1])
         elif spacing is not None and len(row) >= 3 and len(row[0]) >= 2:
             pin = row[0]
