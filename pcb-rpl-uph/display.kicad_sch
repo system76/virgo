@@ -1114,7 +1114,7 @@
     (property "Footprint" "ipex:IPEX_20879-040E-01" (at 185.42 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.i-pex.com/sites/default/files/downloads/pdf/CATALOG_CABLINE-UM_E.pdf" (at 185.42 90.17 0)
+    (property "Datasheet" "20879-040E-01" (at 185.42 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ed07b5eb-1ad1-4e98-ba75-e8aee98c12e1))
