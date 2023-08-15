@@ -7872,6 +7872,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 496cc1c9-a1dc-4b4a-84e4-17726d9c9133)
   )
+  (text "PCIEX8 is not used,\nnot present on all\nCPUs" (at 38.1 248.92 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a366db02-aa8d-4302-80df-b9ca5aed6c38)
+  )
 
   (label "PCIEX8_RCP" (at 74.93 233.68 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
