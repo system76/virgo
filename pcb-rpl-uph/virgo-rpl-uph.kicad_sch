@@ -9901,6 +9901,23 @@
     )
   )
 
+  (sheet (at 63.5 170.18) (size 22.86 10.16) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b31db8fc-c0a7-4e51-af9d-c24790f69c30)
+    (property "Sheetname" "CHARGER" (at 63.5 169.4684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "charger.kicad_sch" (at 63.5 180.9246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "virgo-rpl-uph"
+        (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a" (page "26"))
+      )
+    )
+  )
+
   (sheet (at 63.5 201.93) (size 22.86 7.62) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
