@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 2.8,
+          "width": 2.8
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -584,6 +584,10 @@
     [
       "51f8fb37-6338-4c1e-9d20-0671144c1d70",
       "EC"
+    ],
+    [
+      "b31db8fc-c0a7-4e51-af9d-c24790f69c30",
+      "CHARGER"
     ],
     [
       "e4d8c582-eb17-46c4-8cee-7b6e5daf94f0",
