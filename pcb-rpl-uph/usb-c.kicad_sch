@@ -1645,8 +1645,6 @@
     (uuid ff5dcf3f-b16d-4812-844a-6689ff72a67e)
   )
 
-  (no_connect (at 228.6 238.76) (uuid df19bbc0-79fa-4b7b-a8b3-a20ece6fb8e7))
-
   (bus_entry (at 152.4 133.35) (size 2.54 2.54)
     (stroke (width 0) (type default))
     (uuid 1b81f824-22a9-400b-803c-8b06f51c530f)
@@ -2773,6 +2771,10 @@
   (hierarchical_label "~{DEBUG}" (shape output) (at 220.98 243.84 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 06b53409-ccbd-40b0-a6f1-7c10eb80856d)
+  )
+  (hierarchical_label "~{INT}" (shape output) (at 228.6 238.76 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 0c80f48e-de1e-4943-aa82-ec5cb6b74cab)
   )
   (hierarchical_label "SDA" (shape bidirectional) (at 261.62 238.76 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))

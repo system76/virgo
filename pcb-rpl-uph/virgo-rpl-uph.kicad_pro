@@ -578,12 +578,12 @@
       "CPU_POWER"
     ],
     [
-      "66fe405c-1a38-42dc-bfec-a7c5f6a5d11f",
-      "CPU_MISC"
-    ],
-    [
       "51f8fb37-6338-4c1e-9d20-0671144c1d70",
       "EC"
+    ],
+    [
+      "66fe405c-1a38-42dc-bfec-a7c5f6a5d11f",
+      "CPU_MISC"
     ],
     [
       "a29f3426-30a6-4a41-8db3-bc9c94945f7b",

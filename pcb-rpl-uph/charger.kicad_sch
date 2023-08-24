@@ -1298,8 +1298,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b2377a92-1d0e-4986-beb9-5ce95e5104a9)
   )
-  (text "CHRG_OK should be\nset high one a USB\nPD contract is established,\ncharger current limit is set\nto match.\nOTG/VAP may be unused\nboth route to EC"
-    (at 139.7 138.43 0)
+  (text "CHRG_OK is open drain\noutput\nOTG/VAP may be unused\nboth route to EC"
+    (at 142.24 129.54 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e53fcf7f-7435-4ae0-98f4-62ef7cd414f2)
   )
@@ -1425,7 +1425,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 7cfd371e-1742-4e4e-b3b8-7f174e111cc7)
   )
-  (hierarchical_label "CHRG_OK" (shape input) (at 180.34 123.19 180) (fields_autoplaced)
+  (hierarchical_label "CHRG_OK" (shape output) (at 180.34 123.19 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 8f0c5fd7-3acc-47fb-ae97-fe243d7d0421)
   )
