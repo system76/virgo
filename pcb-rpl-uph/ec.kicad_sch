@@ -802,7 +802,7 @@
     (property "Footprint" "local:MEC1521H_B0_I_TF" (at 208.28 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 208.28 59.69 0)
+    (property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/CPG/ProductDocuments/DataSheets/MEC152x-Data-Sheet-DS00003427E.pdf" (at 208.28 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "A1" (uuid c68308fc-8783-4fe7-af50-937e5666c590))

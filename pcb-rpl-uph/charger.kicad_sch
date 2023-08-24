@@ -805,6 +805,9 @@
   (junction (at 313.69 86.36) (diameter 0) (color 0 0 0 0)
     (uuid f9db469e-cf84-4c69-899b-9a8169517d09)
   )
+  (junction (at 53.34 59.69) (diameter 0) (color 0 0 0 0)
+    (uuid fbf7bc37-28fb-481f-94ff-42ab62eb4d2e)
+  )
 
   (no_connect (at 236.22 139.7) (uuid 13848c21-b9c8-477e-8a2a-2a7179599189))
 
@@ -847,6 +850,10 @@
   (wire (pts (xy 236.22 125.73) (xy 248.92 125.73))
     (stroke (width 0) (type default))
     (uuid 174b28a9-2367-4b05-8e6e-a6c8d0a30dc4)
+  )
+  (wire (pts (xy 45.72 59.69) (xy 53.34 59.69))
+    (stroke (width 0) (type default))
+    (uuid 1ace59de-4721-4521-ae38-3af1acb1717a)
   )
   (wire (pts (xy 295.91 59.69) (xy 285.75 59.69))
     (stroke (width 0) (type default))
@@ -1286,6 +1293,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid abafae3c-17d1-43a4-9244-3659c76992bf)
   )
+  (text "Can use AONS21321 here\nfor BOM shortening if\ndesired, package is bigger"
+    (at 267.97 78.74 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b2377a92-1d0e-4986-beb9-5ce95e5104a9)
+  )
   (text "CHRG_OK should be\nset high one a USB\nPD contract is established,\ncharger current limit is set\nto match.\nOTG/VAP may be unused\nboth route to EC"
     (at 139.7 138.43 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1404,6 +1416,10 @@
   (hierarchical_label "BATT" (shape bidirectional) (at 330.2 86.36 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 257aedab-89b2-4719-b92d-dd74d7044a4e)
+  )
+  (hierarchical_label "VIN" (shape input) (at 45.72 59.69 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 2b824ec4-0df6-4331-9291-c502d8442abb)
   )
   (hierarchical_label "SDA" (shape bidirectional) (at 180.34 118.11 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
