@@ -932,8 +932,8 @@
     (property "Datasheet" "~" (at 128.27 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7885d073-16d1-4fd9-b4ed-97e42840493b))
-    (pin "2" (uuid b18b0746-5efb-47e7-8353-2f46338cd351))
+    (pin "1" (uuid f3c08dd8-ae26-4cbc-af4d-e54fdecb30d8))
+    (pin "2" (uuid fe4a3049-bc1b-41c9-8af7-454051e3aded))
     (instances
       (project "virgo-rpl-uph"
         (path "/16b1e6ca-a3e2-42a7-b57e-a744c26a548a/dc6bb010-aca3-4cde-ab91-1638cac3cb59"
