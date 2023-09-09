@@ -1260,8 +1260,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d72ee79c-a467-492f-9ccb-e84e76353138)
   )
-  (text "VBAT must be present if VTR_ANALOG is present\n\ndiode and current limiting resistor\nor 2 diodes in series\nare required by product safety standards,\nalso protects agains reverse polarity"
-    (at 313.69 30.48 0)
+  (text "VBAT must be present if VTR_ANALOG is present\n\ndiode and current limiting resistor\nor 2 diodes in series\nare required by product safety standards,\nalso protects agains reverse polarity\n\ncan share battery, this circuit with CPU\n\nVTR1: always on supply\nVTR2: 1.8 or 3.3 V on in S5 soft off\nVTR3: option"
+    (at 314.96 39.37 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fee1cd36-80f5-473b-8dbb-39d70710a904)
   )
