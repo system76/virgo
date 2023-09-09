@@ -4524,7 +4524,7 @@
     (property "Reference" "C99" (at 256.54 246.38 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "2.2 uF" (at 255.27 248.92 0)
+    (property "Value" "22 uF" (at 255.27 248.92 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "local:C_0402_1005Metric" (at 261.3152 243.84 0)
