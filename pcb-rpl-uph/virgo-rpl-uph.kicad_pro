@@ -575,6 +575,18 @@
       "CPU_USB"
     ],
     [
+      "3dee71af-c13b-4b1f-ab93-ed1022fa19d8",
+      "PC2"
+    ],
+    [
+      "311b5d04-3e56-49ee-beb2-94c474b55fb1",
+      "PC3"
+    ],
+    [
+      "3c31f0ad-1c54-465a-bb89-4fd03ff8a065",
+      "PG1"
+    ],
+    [
       "b22f8f58-2f29-4e38-ba70-c05cc125532f",
       "CPU_UNUSED"
     ],
@@ -609,6 +621,14 @@
     [
       "69fb8a71-6e02-4ae4-89b7-1b50af609e20",
       "Display"
+    ],
+    [
+      "1b07d368-a806-4bf6-a880-5b7e8262d606",
+      "PC1"
+    ],
+    [
+      "f7897f38-2599-47dd-8bfa-f611b987bbbf",
+      "PG2"
     ]
   ],
   "text_variables": {}
